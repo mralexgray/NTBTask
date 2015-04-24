@@ -9,6 +9,7 @@
 
 #import "NTBTask.h"
 
+#if MAC_ONLY
 @implementation NTBTask
 
 - (instancetype)initWithLaunchPath:(NSString *)launchPath
@@ -153,3 +154,4 @@
 	[_task launch];
 }
 @end
+#endif
