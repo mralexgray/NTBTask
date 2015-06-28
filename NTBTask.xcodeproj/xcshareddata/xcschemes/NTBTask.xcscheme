@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,7 +17,7 @@
                BlueprintIdentifier = "BAAB90CB19168A8800138181"
                BuildableName = "libNTBTask.a"
                BlueprintName = "NTBTask"
-               ReferencedContainer = "container:NTBTask.xcodeproj">
+               ReferencedContainer = "container:../../../../dev/ToolKit/Modules/AtoZUniversal/Vendor/NTBTask/NTBTask.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "BAFE7F541912DD20006184FF"
                BuildableName = "NTBTask Tests.xctest"
                BlueprintName = "NTBTask Tests"
-               ReferencedContainer = "container:NTBTask.xcodeproj">
+               ReferencedContainer = "container:../../../../dev/ToolKit/Modules/AtoZUniversal/Vendor/NTBTask/NTBTask.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
