@@ -17,6 +17,7 @@
 
 @implementation NTBTask_Tests
 
+#if MAC_ONLY
 - (void)testWriteInput
 {
 	NTBTask *sut = [[NTBTask alloc] initWithLaunchPath:@"/bin/cat"];
@@ -148,5 +149,6 @@
 	XCTAssert([result length] >= 60, @"incomplete");
 	XCTAssert(count > 1);
 }
+#endif
 
 @end
